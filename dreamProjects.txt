@@ -1,2 +1,8 @@
 
-placeholder for dream projects
+1.  robots to rehabilitate landfills
+
+2.  applications to contemplative technologies
+
+3.  question answering system for mathematics
+
+4.  translate mathematical pseudo-formal journal proofs to formal proofs (e.g. Coq) for verification.
