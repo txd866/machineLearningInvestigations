@@ -1,4 +1,4 @@
-This project demonstrates four dimensionality reduction techniques (PCA, t-SNE, Isomap, MDS) in virtual reality (GearVR).
+This project uses virtual reality (GearVR) to visualize the results of four dimensionality reduction techniques (PCA, t-SNE, Isomap, MDS) applied to MNIST data.
 
 Try it out by installing gearVR.apk on a Samsung S6 and popping the phone into GearVR.  A gamepad is required.  Button A recenters the view to the start position.  Button B switches between the four methods.
 
