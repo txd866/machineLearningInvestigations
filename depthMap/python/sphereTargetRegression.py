@@ -1,4 +1,4 @@
-#%%
+#%%  LEARN THE VELOCITY OF SPHERES FROM DEPTH MAPS PRODUCED IN UNITY
 
 import numpy as np
 import matplotlib
@@ -211,8 +211,8 @@ def impactDetect(velocity, startPosition, targetPoint, bulletSpeed):
     else:
         return 0
     
-#%%
-# fit, save and score the model
+#%%  fit, save and score the model
+    
 def trainNN():
     
     # define the deep model
@@ -326,7 +326,7 @@ try:
 except:
     depthData, locationData = depthAndLocationLoad()
     
-#%%
+#%% TRAIN THE MODEL
     
 fitHistory = trainNN()
 
