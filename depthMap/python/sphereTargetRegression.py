@@ -136,7 +136,6 @@ def nnModel(flag):
         model.add(Dropout(0.25))
         
         model.add(Flatten())
-        # Note: Keras does automatic shape inference.
         model.add(Dense(256))
         model.add(Activation('relu'))
         model.add(Dropout(0.5))
@@ -150,23 +149,17 @@ def nnModel(flag):
         model = Sequential()
         model.add(Convolution2D(16, 3, 3, border_mode='full', input_shape=(1, 200, 200)))
         model.add(Activation('relu'))
-        #model.add(Dropout(0.5))
         model.add(Convolution2D(16, 3, 3))
         model.add(Activation('relu'))
-        #model.add(Dropout(0.5))
         
         model.add(Convolution2D(16, 3, 3, border_mode='valid'))
         model.add(Activation('relu'))
-        #model.add(Dropout(0.5))
         model.add(Convolution2D(16, 3, 3))
         model.add(Activation('relu'))
-        #model.add(Dropout(0.5))
         
         model.add(Flatten())
-        # Note: Keras does automatic shape inference.
         model.add(Dense(256))
         model.add(Activation('relu'))
-        #model.add(Dropout(0.5))
         
         model.add(Dense(3))
         
