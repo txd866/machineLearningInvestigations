@@ -1,1 +1,1 @@
-Info for embedding app.
+This project demonstrates four dimensionality reduction techniques (PCA, t-SNE, Isomap, MDS) in virtual reality (GearVR).
