@@ -4,4 +4,4 @@ Comments:
 
 1.  Training is on the collision point in 3-space.  It might be better to train on direction (normalized vector).
 
-2.  Overfitting seems unlikely but could be a problem and should be checked.  There are approximately 5000 depth maps and therefore approximately 2.5e7 velocities.  Each loop trains on 1000 random samples and tests on 1000 random samples.  So with several thousand loops their will be some test elements that were in the training set.
+2.  Overfitting seems unlikely but could be a problem and should be checked.  There are approximately 5000 depth maps and therefore approximately 2.5e7 velocities.  Each loop trains on 1000 random samples and tests on 1000 random samples.  So with several thousand loops there will be some overlap between training and test sets.
