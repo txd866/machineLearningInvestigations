@@ -7,4 +7,4 @@ Comments:
 2.  Overfitting seems unlikely but could be a problem and should be checked.  There are approximately 5000 depth maps and therefore approximately 2.5e7 velocities.  Each loop trains on 1000 random samples and tests on 1000 random samples.  So with several thousand loops there will be some overlap between training and test sets.
 
 ![Test Image]
-(https://github.com/mettinger/machineLearningInvestigations/tree/master/depthMap/sphereProgress.png)
+(https://github.com/mettinger/machineLearningInvestigations/blob/master/depthMap/sphereProgress.png)
