@@ -1,2 +1,0 @@
-
-Placeholder for short description about bayesian MCTS.
