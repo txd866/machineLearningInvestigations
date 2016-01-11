@@ -1,0 +1,1 @@
+This experiment attempts to learn the task described in the depthMap directory but using reinforcement learning rather than supervised learning (regression).  The algorithm used is "deep deterministic policy gradient" as described in the paper "Continuous Control With Deep Reinforcement Learning" by Lillicrap, et.al.
