@@ -4,4 +4,3 @@
 3.  dimensionalityReductionVR: using virtual reality (GearVR) to visualize various methods of dimensionality reduction for MNIST
 4.  mlProjects.pdf: Ruminations on difficult, speculative but (IMHO) valuable learning projects of special interest to me.
 5.  unifiedTreeSearch.pdf:  A short, terse description of an algorithm for statistical analysis for gambling games, unifying exact inference, random sampling, and Bayesian Monte Carlo Tree Search. (DRAFT IN PROGRESS)
-6.  Tiny prototype of forward and backward automatic differentation in Scala. <https://github.com/mettinger/scala/tree/master/autoDiff>
